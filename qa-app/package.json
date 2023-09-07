@@ -1,0 +1,21 @@
+{
+  "name": "qa-app-voip",
+  "version": "1.0.0",
+  "description": "qa-app-voip",
+  "author": "",
+  "scripts": {
+    "start": "tsc && node dist/service.js",
+    "compile": "tsc && node dist/service.js",
+    "dev": "nodemon -e ts  --exec \"npm run compile\""
+  },
+  "devDependencies": {
+    
+    "@types/node": "^18.7.16",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "asterisk-ami-client": "^1.1.5",
+    "dotenv": "^16.0.2"
+  }
+}
