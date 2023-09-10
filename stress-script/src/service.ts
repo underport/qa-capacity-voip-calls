@@ -13,8 +13,8 @@ async function loop(){
   let json = {
     "ActionID": ActionID,
     "Action": "originate",
-    "channel": "PJSIP/123456@TRONCALTEST",
-    "context":'qa-test',
+    "channel": "PJSIP/123456@TRUNK_TEST",
+    "context":'stres-test',
     "exten":"s", 
     "priority":"1",
     "callerid": "111222333",
