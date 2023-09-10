@@ -1,4 +1,4 @@
-## Pruebas basadas con un Container PBX 
+## Pruebas de STRESS VoIP con RTP 
 
 Antes de inicializar el script de stress tener el asterisk configurado
 
